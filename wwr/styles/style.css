@@ -1,0 +1,87 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav, a { /*  the a element is the only thing in nav so maybe it would make sense to not explicitly reference a i.e nav { */
+    text-align: center;
+    text-decoration: none;
+    background-color: darkslategray;
+    color:azure
+    
+}
+
+header {
+    background-color: darkslategray;
+}
+
+nav a:hover {
+    background-color: rgb(32, 39, 39);
+    text-decoration: underline;
+}
+
+.book, .join {
+    background-color: darkslategray;
+    color:azure
+}
+
+.book:hover, .join:hover {
+    background-color: rgb(32, 39, 39);
+    text-decoration: underline;
+}
+
+/*.home-title {
+    background-color: darkslategray;
+    color:azure
+}*/
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+    background-color: darkslategray;
+    color:azure
+}
+
+.msg h2, .msg p {
+    text-align: center;
+    background-color: darkslategray;
+    color:azure
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+    background-color:darkolivegreen;
+}
+
+footer {
+    background-color: darkslategray;
+    color:azure
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    background-color: rgb(32, 39, 39);
+    text-decoration: underline;
+    
+}
+
+.logo, .icon {
+    width: 80px;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+footer p {
+    font-size: 1.2em;
+}
